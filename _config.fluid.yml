@@ -471,7 +471,8 @@ index:
 
     # 为空则按 hexo config.subtitle 显示
     # If empty, text based on `subtitle` in hexo config
-    text: "finally had to deal with myself. and i moved on from caring."
+    # text: "finally had to deal with myself. and i moved on from caring."
+    text: "优雅的其中一步，专注自己"
 
     # 通过 API 接口作为首页副标题的内容，必须返回的是 JSON 格式，如果请求失败则按 text 字段显示，该功能必须先开启 typing 打字机功能
     # Subtitle of the homepage through the API, must be returned a JSON. If the request fails, it will be displayed in `text` value. This feature must first enable the typing animation
@@ -632,7 +633,7 @@ post:
 
     # 层级的折叠深度，0 是全部折叠，大于 0 后如果存在下级标题则默认展开
     # Collapse depth. If 0, all headings collapsed. If greater than 0, it will be expanded by default if there are sub headings
-    collapseDepth: 0
+    collapseDepth: 3
 
   # 版权声明，会显示在每篇文章的结尾
   # Copyright, will be displayed at the end of each post
@@ -918,7 +919,7 @@ category:
 
   # 单个分类中折叠展示文章数的最大值，超过限制会显示 More，0 则不限制
   # The maximum number of posts in a single category. If the limit is exceeded, it will be displayed More. If 0 no limit
-  post_limit: 10
+  post_limit: 20
 
 
 #---------------------------
@@ -1000,7 +1001,7 @@ links:
   items:
     - {
       title: "陌生人",
-      intro: "陌生的朋友",
+      intro: "此人没有更多介绍",
       link: "https://mynameiswzkang.github.io/",
       avatar: "https://mynameiswzkang.github.io/img/%E6%B5%B7%E7%BB%B5%E5%AE%9D%E5%AE%9D.jpg"
     }
